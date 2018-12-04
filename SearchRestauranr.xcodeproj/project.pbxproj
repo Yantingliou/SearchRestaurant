@@ -13,6 +13,9 @@
 		D3E2545121B68232005AB67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E2545021B68232005AB67B /* Assets.xcassets */; };
 		D3E2545421B68232005AB67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E2545221B68232005AB67B /* LaunchScreen.storyboard */; };
 		D3E2545F21B68232005AB67B /* SearchRestauranrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2545E21B68232005AB67B /* SearchRestauranrTests.swift */; };
+		D3E2546A21B68DC4005AB67B /* LocationCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2546921B68DC4005AB67B /* LocationCategoryViewController.swift */; };
+		D3E2546C21B69F3F005AB67B /* LocationIName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2546B21B69F3F005AB67B /* LocationIName.swift */; };
+		D3E2546E21B6A342005AB67B /* LocationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E2546D21B6A342005AB67B /* LocationCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D3E2545A21B68232005AB67B /* SearchRestauranrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchRestauranrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E2545E21B68232005AB67B /* SearchRestauranrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRestauranrTests.swift; sourceTree = "<group>"; };
 		D3E2546021B68232005AB67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E2546921B68DC4005AB67B /* LocationCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCategoryViewController.swift; sourceTree = "<group>"; };
+		D3E2546B21B69F3F005AB67B /* LocationIName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationIName.swift; sourceTree = "<group>"; };
+		D3E2546D21B6A342005AB67B /* LocationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				D3E2544921B6822D005AB67B /* AppDelegate.swift */,
 				D3E2544B21B6822D005AB67B /* ViewController.swift */,
+				D3E2546921B68DC4005AB67B /* LocationCategoryViewController.swift */,
+				D3E2546B21B69F3F005AB67B /* LocationIName.swift */,
+				D3E2546D21B6A342005AB67B /* LocationCollectionViewCell.swift */,
 				D3E2544D21B6822D005AB67B /* Main.storyboard */,
 				D3E2545021B68232005AB67B /* Assets.xcassets */,
 				D3E2545221B68232005AB67B /* LaunchScreen.storyboard */,
@@ -198,6 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E2544C21B6822D005AB67B /* ViewController.swift in Sources */,
+				D3E2546C21B69F3F005AB67B /* LocationIName.swift in Sources */,
+				D3E2546E21B6A342005AB67B /* LocationCollectionViewCell.swift in Sources */,
+				D3E2546A21B68DC4005AB67B /* LocationCategoryViewController.swift in Sources */,
 				D3E2544A21B6822D005AB67B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T29CRUSHY5;
 				INFOPLIST_FILE = SearchRestauranr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T29CRUSHY5;
 				INFOPLIST_FILE = SearchRestauranr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
